@@ -1,0 +1,16 @@
+author: Tomasz Kopacki <tomasz@kopacki.eu>
+description: String utils
+type: lib
+version: 1.0
+
+filesystem:
+  - mjs_fs
+
+libs:
+  - origin: https://github.com/mongoose-os-libs/mjs
+
+tags:
+  - string_utils
+  - js
+
+manifest_version: 2017-05-18
