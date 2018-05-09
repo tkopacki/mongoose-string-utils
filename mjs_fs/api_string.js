@@ -1,3 +1,11 @@
+string.prototype.ltrim = function(string) {
+    let idx = 0;
+    while(string[idx] === ' ') {
+        idx++;
+    }
+    return string.slice(idx, string.length);
+}
+
 let StringUtils = {
     ltrim: function(string) {
         let idx = 0;
