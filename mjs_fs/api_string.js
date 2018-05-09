@@ -1,4 +1,4 @@
-StringUtils = {
+let StringUtils = {
     ltrim: function(string) {
         let idx = 0;
         while(string[idx] === ' ') {
