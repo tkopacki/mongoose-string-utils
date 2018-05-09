@@ -1,4 +1,5 @@
 #JavaScript string utils for Mongoose OS
+
 ## string_ltrim
 Removes all spaces from the left, usage:
 ```let toTrim = "  aaa" //result: "aaa"```
