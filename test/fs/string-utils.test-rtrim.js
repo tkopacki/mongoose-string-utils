@@ -2,32 +2,32 @@ load('api_string.js');
 
 function test_rtrim1() {
     let s1 = "";
-    return string_rtrim(s1) === "";
+    return StringUtils.rtrim(s1) === "";
 }
 
 function test_rtrim2() {
     let s2 = "    ";
-    return string_rtrim(s2) === "";
+    return StringUtils.rtrim(s2) === "";
 }
 
 function test_rtrim3() {
     let s3 = " aaa";
-    return string_rtrim(s3) === " aaa";
+    return StringUtils.rtrim(s3) === " aaa";
 }
 
 function test_rtrim4() {
     let s4 = "aaa ";
-    return string_rtrim(s4) === "aaa";
+    return StringUtils.rtrim(s4) === "aaa";
 }
 
 function test_rtrim5() {
     let s5 = "  aaa  ";
-    return string_rtrim(s5) === "  aaa";
+    return StringUtils.rtrim(s5) === "  aaa";
 }
 
 function test_rtrim6() {
     let s6 = " aa aa aa ";
-    return string_rtrim(s6) === " aa aa aa";
+    return StringUtils.rtrim(s6) === " aa aa aa";
 }
 
 function test_rtrim() {
